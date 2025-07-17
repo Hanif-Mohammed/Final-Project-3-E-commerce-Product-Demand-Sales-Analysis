@@ -15,9 +15,11 @@ Train time-series forecasting models (e.g., Prophet or ARIMA) in Databricks to p
 Register model with MLflow, promote using Azure DevOps release pipeline, and monitor drift.
 
 Project Overview
+
 In the dynamic landscape of e-commerce, accurate demand forecasting is paramount for optimizing inventory management, supply chain efficiency, and marketing strategies. This project establishes a robust, end-to-end data and MLOps pipeline designed to address these challenges. The primary objective is to ingest raw e-commerce transaction data, transform it into a refined format, apply advanced machine learning models for predicting future demand, and automate the entire model lifecycle from training to deployment. The ultimate goal is to provide actionable insights through accessible visualizations, enabling data-driven decision-making for business stakeholders.
 
 Workflow Overview:
+
 Data Ingestion (Bronze Layer): Raw e-commerce data is securely brought into ADLS Gen2.
 Data Transformation (Silver Layer): Raw data undergoes cleansing, enrichment, and aggregation, transforming it into a structured, queryable format.
 Forecasting & MLflow Tracking (Gold Layer): Machine learning models consume the Silver layer data to generate demand forecasts. All model training details and artifacts are meticulously tracked in MLflow.
